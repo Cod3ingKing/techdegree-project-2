@@ -17,8 +17,14 @@ For assistance:
 Create the `showPage` function
 This function will create and insert/append the elements needed to display a "page" of nine students
 */
+function showPage (list,page){
+const startIndex = (page * data[0].length)- (data[0])
+const endIndex = page*data[0]
 
+console.log (data)
 
+}
+showPage(data, 1)
 
 /*
 Create the `addPagination` function
